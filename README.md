@@ -1,23 +1,23 @@
-# Pancakeswap SDK
+# Muleswap SDK
 
-Forked from the [Uniswap SDK](https://github.com/Uniswap/uniswap-v2-sdk/commit/a88048e9c4198a5bdaea00883ca00c8c8e582605).
+Forked from the [Pancakeswap SDK](https://github.com/pancakeswap/pancake-swap-sdk/commit/d2903d4c136cd11eeda0f3f874a838632fd75704).
 
-You can refer to the Uniswap SDK documentation [uniswap.org](https://docs.uniswap.org/sdk/2.0.0/).
+You can refer to the Pancakeswap SDK documentation [pancakeswap.finance](https://openbase.com/js/@pancakeswap-libs/sdk/documentation).
 
 ## Running tests
 
-To run the tests, follow these steps. You must have at least node v10 and [yarn](https://yarnpkg.com/) installed.
+To run the tests, follow these steps. You must have at least node v12 and [yarn](https://yarnpkg.com/) installed.
 
 First clone the repository:
 
 ```sh
-git clone https://github.com/pancakeswap/pancake-swap-sdk.git
+git clone https://github.com/muleswap/muleswap-sdk.git
 ```
 
-Move into the pancakeswap-sdk working directory
+Move into the muleswap-sdk working directory
 
 ```sh
-cd pancakeswap-sdk/
+cd muleswap-sdk/
 ```
 
 Install dependencies
