@@ -1,14 +1,17 @@
 {
-  "name": "@muleswap/sdk",
+  "name": "@pancakeswap/sdk",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "🛠 An SDK for building applications on top of Muleswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/muleswap/muleswap-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muleswap/muleswap-sdk.git"
+  },
   "keywords": [
     "muleswap",
     "bronos"
@@ -54,5 +57,13 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/muleswap/muleswap-sdk/issues"
+  },
+  "homepage": "https://github.com/muleswap/muleswap-sdk#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": "bronos"
 }

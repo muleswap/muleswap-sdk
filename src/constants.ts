@@ -5,7 +5,7 @@ export type BigintIsh = JSBI | number | string
 
 export enum ChainId {
   MAINNET = 56,
-  TESTNET = 1074
+  TESTNET = 9000
 }
 
 export enum TradeType {
@@ -23,7 +23,7 @@ export const FACTORY_ADDRESS = '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73'
 
 export const FACTORY_ADDRESS_MAP = {
   [ChainId.MAINNET]: FACTORY_ADDRESS,
-  [ChainId.TESTNET]: '0xf86E0B72C38db1ae747A2DFe9BDEAb28F7DA7E66'
+  [ChainId.TESTNET]: '0xC7b6F313Ee0b079AD786252E0E3d3bc654B34C01'
 }
 
 export const INIT_CODE_HASH = '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5'
